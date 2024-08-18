@@ -1,0 +1,176 @@
+/* General Reset */
+body, h1, h2, p, ul, li, form, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f0f8ff; /* Light azure background for a fresh look */
+    padding: 0 20px;
+}
+
+/* Header */
+header {
+    background: #004d40; /* Deep teal color */
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 6px solid #00796b; /* Teal border under header */
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #a5d6a7; /* Light green hover effect */
+}
+
+/* Sections */
+section {
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #004d40; /* Deep teal color for section headers */
+    margin-bottom: 15px;
+    font-size: 2.2em;
+    border-bottom: 3px solid #004d40;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+section p {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    line-height: 1.8;
+    text-align: center;
+}
+
+/* Home Image */
+.home-image {
+    max-width: 80%; /* Center image and limit its size */
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border: 6px solid #004d40; /* Deep teal border */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Form */
+form {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="date"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+form button {
+    background: #004d40; /* Deep teal color */
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form button:hover {
+    background: #00796b; /* Slightly lighter teal for hover */
+}
+
+/* Contact Section */
+#contact {
+    background: #e0f2f1; /* Light teal background */
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+#contact p {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+
+/* Footer */
+footer {
+    background: #004d40; /* Deep teal color */
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    border-top: 6px solid #00796b; /* Teal border on top */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    section h2 {
+        font-size: 1.8em;
+    }
+
+    form input[type="text"],
+    form input[type="email"],
+    form input[type="date"] {
+        font-size: 0.9em;
+    }
+
+    form button {
+        font-size: 1em;
+    }
+}
